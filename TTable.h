@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string>
 #include <conio.h>
+#include <iostream>
 
 #include "TRecord.h"
 
@@ -52,9 +53,14 @@ public:
 	// SetCurr?
 	virtual void Reset()  = 0;
 	virtual void GoNext() = 0;
-	virtual void IsEnd()  = 0;
+	virtual bool IsEnd()  = 0;
 
-
-
-
+	void print()
+	{
+		for (Reset(); !IsEnd(); GoNext())
+		{
+			cout << GetCurr().GetKey();
+			cout << GetCurr().GetVal();
+		}
+	}
 };

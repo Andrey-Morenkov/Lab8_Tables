@@ -29,5 +29,17 @@
     <ClInclude Include="TTable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="TArrayTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TScanTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TSortTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="THashTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

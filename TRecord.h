@@ -79,4 +79,9 @@ public:
 		else
 			return false;
 	}
+
+	friend bool operator ==(TKey key1, TKey key2)
+	{
+		temp_key1 = key1.stoi // TODO сравнение Key-ев
+	}
 };

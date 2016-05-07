@@ -82,7 +82,11 @@
     <ClInclude Include="MyForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="TArrayTable.h" />
+    <ClInclude Include="THashTable.h" />
     <ClInclude Include="TRecord.h" />
+    <ClInclude Include="TScanTable.h" />
+    <ClInclude Include="TSortTable.h" />
     <ClInclude Include="TTable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
